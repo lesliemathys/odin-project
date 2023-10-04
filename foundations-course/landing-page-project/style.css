@@ -20,3 +20,16 @@ img, picture, svg, video{
     display: block;
     max-width: 100%;
 }
+
+:root {
+    --dark-bg-color: #1f2937;
+    --cta-bg-color: #3882f6;
+    --quote-bg-color: #e5e7eb;
+    --main-text-color: #f9faf8;
+    --header-logo-color: var(--main-text-color);
+    --hero-secondary-text-color: var(--quote-bg-color);
+    --button-color: var(--cta-bg-color);
+    --info-header-text-color: var(--dark-bg-color);
+    --quote-text-color: var(--dark-bg-color);
+
+}
