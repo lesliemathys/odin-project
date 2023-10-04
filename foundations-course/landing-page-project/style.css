@@ -83,7 +83,6 @@ a {
     align-items: center;
     width: 70%;
     margin-inline: auto;
-    background-color: ;
 }
 
 .hero-left {
@@ -124,3 +123,30 @@ button {
     border-radius: 0.25rem;
     font-weight: 700;
 }
+
+section.options{
+    background-color: var(--main-text-color);
+}
+
+.options-container .options-header-text .options-image-container .options-image{
+    display: flex;
+}
+
+.options-container {
+    align-items: center;
+    width: 70%;
+    margin-inline: auto;
+    justify-content: space-evenly;
+}
+
+.options-image{
+    flex-direction: row;
+    border: 3px solid red;
+}
+
+.options-image > img {
+    height: 200px;
+    width: 200px;
+}
+
+
