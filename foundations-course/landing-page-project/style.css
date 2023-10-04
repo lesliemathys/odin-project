@@ -26,10 +26,19 @@ img, picture, svg, video{
     --cta-bg-color: #3882f6;
     --quote-bg-color: #e5e7eb;
     --main-text-color: #f9faf8;
+
     --header-logo-color: var(--main-text-color);
     --hero-secondary-text-color: var(--quote-bg-color);
     --button-color: var(--cta-bg-color);
     --info-header-text-color: var(--dark-bg-color);
     --quote-text-color: var(--dark-bg-color);
+
+    --hero-main-text-size: 3rem;
+    --hero-secondary-text-size: 1.125rem;
+    --header-logo-text-size: 1.5rem;
+    --info-header-text-size: 2.25rem;
+    --quote-text-size: var(--info-header-text-size);
+
+    font-family: sans-serif;
 
 }
